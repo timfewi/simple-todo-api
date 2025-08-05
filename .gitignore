@@ -1,0 +1,94 @@
+# Development environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker volumes and data
+docker-data/
+postgres-data/
+
+# Large data files
+data/
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.jp2
+
+# Distribution / build artifacts
+dist/
+build/
+
+# Documentation build
+docs/_build/
+site/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+
+# Python virtual environments
+.venv/
+.venv-wsl/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+*.egg
+
+# Dependencies (handled by individual projects)
+node_modules/
+__pycache__/
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Model weights and large ML files
+models/weights/
+*.pkl
+*.joblib
+
+# Backup files
+*.bak
+*.backup
